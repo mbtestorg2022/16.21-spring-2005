@@ -89,12 +89,57 @@ Assessment of student performance
 
 Grades will be assigned according to the following scheme:
 
-| ACTIVITIES | PERCENTAGES |
-| --- | --- |
-| Assignments Including Team Project | 40% |
-| Midterm Exam | 25% |
-| Final Exam | 30% |
-| Participation | 5% 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+ACTIVITIES
+{{< thclose >}}
+{{< thopen >}}
+PERCENTAGES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Assignments Including Team Project
+{{< tdclose >}}
+{{< tdopen >}}
+40%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Midterm Exam
+{{< tdclose >}}
+{{< tdopen >}}
+25%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Final Exam
+{{< tdclose >}}
+{{< tdopen >}}
+30%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Participation
+{{< tdclose >}}
+{{< tdopen >}}
+5%
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Students are strongly encouraged to discuss homework problems with each other, since this is expected to help the learning process. However, homework assignments are also used for performance assessment and, therefore, the material that is turned in must represent the student's own understanding of the material.
 

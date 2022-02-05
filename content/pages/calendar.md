@@ -4,30 +4,700 @@ title: Calendar
 uid: 7c42859f-d0e1-1f0b-f470-bd94753765a8
 ---
 
-| Lec # | Topics | key dates |
-| --- | --- | --- |
-| {{< td-colspan 3 >}} {{< br >}}{{< br >}} **Part 1: Review of the Equations of Linear Elasticity** {{< br >}}{{< br >}} {{< /td-colspan >}} |||
-|  {{< br >}}{{< br >}} 1 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Introduction {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 2-3 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} _Kinetics  {{< br >}}_  {{< br >}}Stress at a Point {{< br >}}{{< br >}} Stress Tensor and the Cauchy Formula {{< br >}}{{< br >}} Transformation of Stress Components {{< br >}}{{< br >}} Principal Stresses and Principal Planes {{< br >}}{{< br >}} Equations of Motion {{< br >}}{{< br >}} Symmetry of the Stress Tensor {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 4 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} _Kinematics_ {{< br >}}{{< br >}} Strain at a Point {{< br >}}{{< br >}} Transformation of Stress Components {{< br >}}{{< br >}} Compatibility Conditions {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 5 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} _Thermodynamic Principles  {{< br >}}_  {{< br >}}The First Law of Thermodynamics: Energy Equation {{< br >}}{{< br >}} The Second Law of Thermodynamics {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 6 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} _Constitutive Equations  {{< br >}}_  {{< br >}}Generalized Hooke's Law {{< br >}}{{< br >}} Strain Energy Density Function {{< br >}}{{< br >}} Elastic Symmetry {{< br >}}{{< br >}} Thermoelastic Constitutive Equations {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 7 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} _Boundary Value Problems of Elasticity  {{< br >}}_  {{< br >}}Summary of Equations {{< br >}}{{< br >}} Classification of Boundary Value Problems {{< br >}}{{< br >}} Existence and Uniqueness of Solutions {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Assignment 1 due {{< br >}}{{< br >}}  |
-| {{< td-colspan 3 >}} {{< br >}}{{< br >}} **Part 2: Energy and Variational Principles** {{< br >}}{{< br >}} {{< /td-colspan >}} |||
-|  {{< br >}}{{< br >}} 8-9 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} _Preliminary Concepts  {{< br >}}_  {{< br >}}Introduction {{< br >}}{{< br >}} Work and Energy {{< br >}}{{< br >}} Strain and Complementary Strain Energy {{< br >}}{{< br >}} Virtual Work {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 10-11 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} _Concepts of Calculus of Variations  {{< br >}}_  {{< br >}}Concept of a Functional {{< br >}}{{< br >}} The Variational Operator {{< br >}}{{< br >}} The First Variation of a Functional {{< br >}}{{< br >}} Extremum of a Functional {{< br >}}{{< br >}} The Euler Equations {{< br >}}{{< br >}} Natural and Essential Boundary Conditions {{< br >}}{{< br >}} A More General Functional {{< br >}}{{< br >}} Minimization with Linear Equality Constraints {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Assignment 2 due in lecture 11 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 12-14 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} _Virtual Work and Energy Principles  {{< br >}}_  {{< br >}}Principle of Virtual Displacements {{< br >}}{{< br >}} Unit Dummy Displacement Method {{< br >}}{{< br >}} Principle of Total Potential Energy {{< br >}}{{< br >}} Principle of Virtual Forces and Complementary Potential  {{< br >}}Energy {{< br >}}{{< br >}} Unit Dummy Load Method {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Assignment 3 due in lecture 14 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 15 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} _Energy Theorems of Structural Mechanics  {{< br >}}_  {{< br >}}Castigliano's First Theorem {{< br >}}{{< br >}} Castigliano's Second Theorem {{< br >}}{{< br >}} Betti's and Maxwell's Reciprocity Theorems {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 16 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Some Preliminaries {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 17-18 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} _The Ritz Method_ {{< br >}}{{< br >}} Description of the Method {{< br >}}{{< br >}} Matrix Form of the Ritz Equations {{< br >}}{{< br >}} One Dimensional Examples {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Assignment 4 due in lecture 17 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 19 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} _Weighted Residual Methods  {{< br >}}_  {{< br >}}A Brief Description of Galerkin, Least-squares and Collocation Methods {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Assignment 5 due {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 20-22 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} _Formulation of the Displacement Based Finite Element Method_ {{< br >}}{{< br >}} General Derivation of Finite Element Equilibrium Equations {{< br >}}{{< br >}} Imposition of Displacement Boundary Conditions {{< br >}}{{< br >}} Generalized Coordinate Models for Specific Problems {{< br >}}{{< br >}} Lumping of Structure Properties and Loads {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 23 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} _Convergence of Analysis Results  {{< br >}}_  {{< br >}}Definition of Convergence {{< br >}}{{< br >}} Properties of the Finite Element Solution {{< br >}}{{< br >}} Rate of Convergence {{< br >}}{{< br >}} Calculation of Stresses and the Assessment of Error {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 24 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Isoparametric Derivation of Bar Element Stiffness Matrix {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 25-27 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} _Formulation of Continuum Elements_ {{< br >}}{{< br >}} Quadrilateral Elements {{< br >}}{{< br >}} Triangular Elements {{< br >}}{{< br >}} Convergence Considerations {{< br >}}{{< br >}} Element Matrices in Global Coordinate System {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Assignment 6 due in lecture 25 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 28-29 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} _Formulation of Structural Elements  {{< br >}}_  {{< br >}}Beam Elements and Axisymmetric Shell Elements {{< br >}}{{< br >}} Plate and Shell Elements {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Assignment 7 due in lecture 28 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 30 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Numerical Integration {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 31 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Direct Solution of Linear System of Equations {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 32-33 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} _Types of Structural Failure_ {{< br >}}{{< br >}} Yield Stress and Ultimate Stress {{< br >}}{{< br >}} Maximum Normal Stress Theory {{< br >}}{{< br >}} Tresca Condition, Hydraulic Stress, von Mises Criterion, Distortion Energy Interpretation {{< br >}}{{< br >}} Graphical Representation of Failure Regions {{< br >}}{{< br >}} Extension to Orthotropic Materials, Hill Criterion, Hoffman Criterion {{< br >}}{{< br >}} Nature of Failure Criteria, Functional Forms {{< br >}}{{< br >}} General Failure Analysis Procedure {{< br >}}{{< br >}} Application to Pressure Tank {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Assignment 8 due in lecture 33 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 34-37 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} _Fracture Mechanics  {{< br >}}_  {{< br >}}Description of Phenomena and Importance {{< br >}}{{< br >}} Energy Approach to Crack Growth, Energy Consumed by Crack Growth, Griffith's Experiment and Formula {{< br >}}{{< br >}} Definition of Stress Intensity Factor {{< br >}}{{< br >}} Stresses at Crack Tip, Mode I, II and III Cracks {{< br >}}{{< br >}} Solutions of Linear Elastic Fracture Mechanics, Geometry Effects {{< br >}}{{< br >}} Combined Loading; Material Selection Example {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Assignment 9 due in lecture 36 {{< br >}}{{< br >}} Term Project due in lecture 36 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 38-42 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} _Fatigue and Longevity  {{< br >}}_  {{< br >}}Terminology, SN Diagrams, Goodman Diagrams {{< br >}}{{< br >}} Effects of R Value, Stress Concentrations {{< br >}}{{< br >}} Ground-Air-Ground Cycle, Miner's Rule {{< br >}}{{< br >}} Micromechanical Effects {{< br >}}{{< br >}} Paris' Law {{< br >}}{{< br >}} Fatigue Life Prediction {{< br >}}{{< br >}} R Effects and Forman's Law, Sequencing Effects {{< br >}}{{< br >}} Approach to Design for Longevity {{< br >}}{{< br >}} Material Selection Example {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}}
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+Lec #
+{{< thclose >}}
+{{< thopen >}}
+Topics
+{{< thclose >}}
+{{< thopen >}}
+key dates
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+
+
+**Part 1: Review of the Equations of Linear Elasticity**
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+1
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Introduction
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+2-3
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+_Kinetics  
+_  
+Stress at a Point
+
+Stress Tensor and the Cauchy Formula
+
+Transformation of Stress Components
+
+Principal Stresses and Principal Planes
+
+Equations of Motion
+
+Symmetry of the Stress Tensor
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+4
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+_Kinematics_
+
+Strain at a Point
+
+Transformation of Stress Components
+
+Compatibility Conditions
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+5
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+_Thermodynamic Principles  
+_  
+The First Law of Thermodynamics: Energy Equation
+
+The Second Law of Thermodynamics
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+6
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+_Constitutive Equations  
+_  
+Generalized Hooke's Law
+
+Strain Energy Density Function
+
+Elastic Symmetry
+
+Thermoelastic Constitutive Equations
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+7
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+_Boundary Value Problems of Elasticity  
+_  
+Summary of Equations
+
+Classification of Boundary Value Problems
+
+Existence and Uniqueness of Solutions
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Assignment 1 due
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+
+
+**Part 2: Energy and Variational Principles**
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+8-9
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+_Preliminary Concepts  
+_  
+Introduction
+
+Work and Energy
+
+Strain and Complementary Strain Energy
+
+Virtual Work
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+10-11
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+_Concepts of Calculus of Variations  
+_  
+Concept of a Functional
+
+The Variational Operator
+
+The First Variation of a Functional
+
+Extremum of a Functional
+
+The Euler Equations
+
+Natural and Essential Boundary Conditions
+
+A More General Functional
+
+Minimization with Linear Equality Constraints
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Assignment 2 due in lecture 11
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+12-14
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+_Virtual Work and Energy Principles  
+_  
+Principle of Virtual Displacements
+
+Unit Dummy Displacement Method
+
+Principle of Total Potential Energy
+
+Principle of Virtual Forces and Complementary Potential  
+Energy
+
+Unit Dummy Load Method
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Assignment 3 due in lecture 14
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+15
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+_Energy Theorems of Structural Mechanics  
+_  
+Castigliano's First Theorem
+
+Castigliano's Second Theorem
+
+Betti's and Maxwell's Reciprocity Theorems
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+16
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Some Preliminaries
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+17-18
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+_The Ritz Method_
+
+Description of the Method
+
+Matrix Form of the Ritz Equations
+
+One Dimensional Examples
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Assignment 4 due in lecture 17
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+19
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+_Weighted Residual Methods  
+_  
+A Brief Description of Galerkin, Least-squares and Collocation Methods
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Assignment 5 due
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+20-22
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+_Formulation of the Displacement Based Finite Element Method_
+
+General Derivation of Finite Element Equilibrium Equations
+
+Imposition of Displacement Boundary Conditions
+
+Generalized Coordinate Models for Specific Problems
+
+Lumping of Structure Properties and Loads
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+23
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+_Convergence of Analysis Results  
+_  
+Definition of Convergence
+
+Properties of the Finite Element Solution
+
+Rate of Convergence
+
+Calculation of Stresses and the Assessment of Error
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+24
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Isoparametric Derivation of Bar Element Stiffness Matrix
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+25-27
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+_Formulation of Continuum Elements_
+
+Quadrilateral Elements
+
+Triangular Elements
+
+Convergence Considerations
+
+Element Matrices in Global Coordinate System
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Assignment 6 due in lecture 25
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+28-29
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+_Formulation of Structural Elements  
+_  
+Beam Elements and Axisymmetric Shell Elements
+
+Plate and Shell Elements
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Assignment 7 due in lecture 28
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+30
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Numerical Integration
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+31
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Direct Solution of Linear System of Equations
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+32-33
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+_Types of Structural Failure_
+
+Yield Stress and Ultimate Stress
+
+Maximum Normal Stress Theory
+
+Tresca Condition, Hydraulic Stress, von Mises Criterion, Distortion Energy Interpretation
+
+Graphical Representation of Failure Regions
+
+Extension to Orthotropic Materials, Hill Criterion, Hoffman Criterion
+
+Nature of Failure Criteria, Functional Forms
+
+General Failure Analysis Procedure
+
+Application to Pressure Tank
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Assignment 8 due in lecture 33
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+34-37
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+_Fracture Mechanics  
+_  
+Description of Phenomena and Importance
+
+Energy Approach to Crack Growth, Energy Consumed by Crack Growth, Griffith's Experiment and Formula
+
+Definition of Stress Intensity Factor
+
+Stresses at Crack Tip, Mode I, II and III Cracks
+
+Solutions of Linear Elastic Fracture Mechanics, Geometry Effects
+
+Combined Loading; Material Selection Example
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Assignment 9 due in lecture 36
+
+Term Project due in lecture 36
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+38-42
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+_Fatigue and Longevity  
+_  
+Terminology, SN Diagrams, Goodman Diagrams
+
+Effects of R Value, Stress Concentrations
+
+Ground-Air-Ground Cycle, Miner's Rule
+
+Micromechanical Effects
+
+Paris' Law
+
+Fatigue Life Prediction
+
+R Effects and Forman's Law, Sequencing Effects
+
+Approach to Design for Longevity
+
+Material Selection Example
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
