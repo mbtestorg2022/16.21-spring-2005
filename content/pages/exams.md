@@ -9,7 +9,7 @@ The exams from the class, along with their associated files, are presented here.
 Midterm
 -------
 
-Midterm Exam ([NB](/courses/aeronautics-and-astronautics/16-21-techniques-for-structural-analysis-and-design-spring-2005/exams/midterm.nb))
+Midterm Exam ({{% resource_link "92018428-ddd9-c9e4-4977-1ebc00842115" "NB" %}})
 
 Final
 -----

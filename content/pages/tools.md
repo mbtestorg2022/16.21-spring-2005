@@ -50,7 +50,7 @@ Introduction
 {{< tdopen >}}
 
 
-Math Tutorial ([NB](/courses/aeronautics-and-astronautics/16-21-techniques-for-structural-analysis-and-design-spring-2005/tools/Unit1_math_tutorial.nb))
+Math Tutorial ({{% resource_link "42ceffcb-02d4-f13c-a8b2-120785ce1479" "NB" %}})
 
 
 {{< tdclose >}}
@@ -80,7 +80,7 @@ Compatibility Conditions
 {{< tdopen >}}
 
 
-Influence of Nonlinear Strains ([NB](/courses/aeronautics-and-astronautics/16-21-techniques-for-structural-analysis-and-design-spring-2005/tools/Unit3_nlstrains.nb))
+Influence of Nonlinear Strains ({{% resource_link "1e63510d-da11-91e3-878e-c9042c4a9bbe" "NB" %}})
 
 
 {{< tdclose >}}
@@ -120,7 +120,7 @@ Betti's and Maxwell's Reciprocity Theorems
 {{< tdopen >}}
 
 
-Castigliano's Theorem Example ([NB](/courses/aeronautics-and-astronautics/16-21-techniques-for-structural-analysis-and-design-spring-2005/tools/Unit10_example.nb))
+Castigliano's Theorem Example ({{% resource_link "dc0c0b37-0a6e-8a12-7514-19697114f1ee" "NB" %}})
 
 
 {{< tdclose >}}
@@ -150,9 +150,9 @@ One Dimensional Examples
 {{< tdopen >}}
 
 
-The Ritz Method: Beam Example ([NB](/courses/aeronautics-and-astronautics/16-21-techniques-for-structural-analysis-and-design-spring-2005/tools/Unit11_ritzbeam.nb))
+The Ritz Method: Beam Example ({{% resource_link "bed9684e-62a8-1174-bf62-e51cdcde001b" "NB" %}})
 
-Space Elevators ([NB](/courses/aeronautics-and-astronautics/16-21-techniques-for-structural-analysis-and-design-spring-2005/tools/Unit11_space_elevators.nb))
+Space Elevators ({{% resource_link "49d6aa43-f948-ae0a-83be-0d5aeea97dae" "NB" %}})
 
 
 {{< tdclose >}}
@@ -184,13 +184,13 @@ Lumping of Structure Properties and Loads
 {{< tdopen >}}
 
 
-Notes on The Finite Element Method II ([NB](/courses/aeronautics-and-astronautics/16-21-techniques-for-structural-analysis-and-design-spring-2005/tools/Unit12_notes.nb))
+Notes on The Finite Element Method II ({{% resource_link "7cce2218-456a-b812-b5eb-ca3633728c39" "NB" %}})
 
-Fixes to the Ritz Method ([NB](/courses/aeronautics-and-astronautics/16-21-techniques-for-structural-analysis-and-design-spring-2005/tools/Unit12_fixes_to_ritz.nb))
+Fixes to the Ritz Method ({{% resource_link "693ff820-fa60-48b3-a7a6-0ac1266fdaf0" "NB" %}})
 
-Application to Rods ([NB](/courses/aeronautics-and-astronautics/16-21-techniques-for-structural-analysis-and-design-spring-2005/tools/Unit12_rods_app.nb))
+Application to Rods ({{% resource_link "ec8982a8-b774-24f5-1327-ff44274650b4" "NB" %}})
 
-The Beam Model ([NB](/courses/aeronautics-and-astronautics/16-21-techniques-for-structural-analysis-and-design-spring-2005/tools/Unit14_beam_model.nb))
+The Beam Model ({{% resource_link "95b26263-5478-0409-aaa7-6da363efcf6c" "NB" %}})
 
 
 {{< tdclose >}}
@@ -222,9 +222,9 @@ Calculation of Stresses and the Assessment of Error
 {{< tdopen >}}
 
 
-2nd Plane Stress Element ([NB](/courses/aeronautics-and-astronautics/16-21-techniques-for-structural-analysis-and-design-spring-2005/tools/Unit15_2planestress.nb))
+2nd Plane Stress Element ({{% resource_link "4cdf69a5-f6a4-1848-ced6-6a6e1ad48989" "NB" %}})
 
-Isoparametric 4-node 2nd Element ([NB](/courses/aeronautics-and-astronautics/16-21-techniques-for-structural-analysis-and-design-spring-2005/tools/Unit15_isop4n.nb))
+Isoparametric 4-node 2nd Element ({{% resource_link "fcb51e92-21ab-927a-eb00-14b75695cee6" "NB" %}})
 
 
 {{< tdclose >}}
@@ -248,7 +248,7 @@ Numerical Integration
 {{< tdopen >}}
 
 
-Quadtrature ([NB](/courses/aeronautics-and-astronautics/16-21-techniques-for-structural-analysis-and-design-spring-2005/tools/Unit16_quadrature.nb))
+Quadtrature ({{% resource_link "06b1b9ff-c321-743c-c399-732b1a702d48" "NB" %}})
 
 
 {{< tdclose >}}

@@ -6,6 +6,7 @@ description: 'This resource includes Mathematica practice problems, verification
   in beam problem, and energy approach applied to a spring system problem.'
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/16-21-techniques-for-structural-analysis-and-design-spring-2005/9a5053c659daf7c4fedcad261f5a0a66_assn1.pdf
 file_type: application/pdf
+parent_uid: df061780-1635-40b2-fdc8-954c8c1379d7
 resourcetype: Document
 title: assn1.pdf
 uid: 9a5053c6-59da-f7c4-fedc-ad261f5a0a66
